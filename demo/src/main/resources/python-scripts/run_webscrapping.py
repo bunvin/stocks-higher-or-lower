@@ -3,10 +3,10 @@ import time
 import os
 
 def run_script():
-    os.system('python webscraping-yahoo-finance-stocks-data.py')
+    script_path = 'C:\\Fullstack_apps\\stocks-higher-or-lower\\demo\\src\\main\\resources\\python-scripts\\webscraping-yahoo-finance-stocks-data.py'
+    os.system(f'python "{script_path}"')
 
-# Schedule the script to run every day at midnight (00:00)
-schedule.every().day.at("23:06").do(run_script)
+schedule.every().day.at("23:00").do(run_script)
 
 while True:
     schedule.run_pending()

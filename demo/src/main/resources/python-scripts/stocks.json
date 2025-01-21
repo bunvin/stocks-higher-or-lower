@@ -4,89 +4,89 @@
         "Symbol": "AAPL",
         "Price": "222.64 ",
         "Change": "-7.34 ",
-        "Volume": "88,367,608",
+        "Volume": "95,299,732",
         "URL": "https://finance.yahoo.com/quote/AAPL/",
         "Description": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; ",
-        "Last_Updated": "2025-01-21 23:03:36"
+        "Last_Updated": "2025-01-21 23:18:45"
     },
     {
         "Company": "Microsoft Corporation",
         "Symbol": "MSFT",
         "Price": "428.50 ",
         "Change": "-0.53 ",
-        "Volume": "21,674,483",
+        "Volume": "24,250,565",
         "URL": "https://finance.yahoo.com/quote/MSFT/",
         "Description": "Microsoft Corporation develops and supports software, services, devices and solutions worldwide. The Productivity and Business Processes segment offers office, exchange, SharePoint, Microsoft Teams, office 365 Security and Compliance, Microsoft viva,",
-        "Last_Updated": "2025-01-21 23:03:39"
+        "Last_Updated": "2025-01-21 23:18:48"
     },
     {
         "Company": "NVIDIA Corporation",
         "Symbol": "NVDA",
         "Price": "140.83 ",
         "Change": "+3.12 ",
-        "Volume": "177,816,227",
+        "Volume": "188,216,937",
         "URL": "https://finance.yahoo.com/quote/NVDA/",
         "Description": "NVIDIA Corporation provides graphics and compute and networking solutions in the United States, Taiwan, China, Hong Kong, and internationally. The Graphics segment offers GeForce GPUs for gaming and PCs, the GeForce NOW game streaming service and rel",
-        "Last_Updated": "2025-01-21 23:03:42"
+        "Last_Updated": "2025-01-21 23:18:51"
     },
     {
         "Company": "Amazon.com, Inc.",
         "Symbol": "AMZN",
         "Price": "230.71 ",
         "Change": "+4.77 ",
-        "Volume": "35,958,964",
+        "Volume": "39,150,184",
         "URL": "https://finance.yahoo.com/quote/AMZN/",
         "Description": "Amazon.com, Inc. engages in the retail sale of consumer products, advertising, and subscriptions service through online and physical stores in North America and internationally. The company operates through three segments: North America, Internationa",
-        "Last_Updated": "2025-01-21 23:03:46"
+        "Last_Updated": "2025-01-21 23:18:55"
     },
     {
         "Company": "Meta Platforms, Inc.",
         "Symbol": "META",
         "Price": "616.46 ",
         "Change": "+3.69 ",
-        "Volume": "10,515,159",
+        "Volume": "11,483,588",
         "URL": "https://finance.yahoo.com/quote/META/",
         "Description": "Meta Platforms, Inc. engages in the development of products that enable people to connect and share with friends and family through mobile devices, personal computers, virtual reality headsets, and wearables worldwide. It operates in two segments, Fa",
-        "Last_Updated": "2025-01-21 23:03:49"
+        "Last_Updated": "2025-01-21 23:18:58"
     },
     {
         "Company": "Tesla, Inc.",
         "Symbol": "TSLA",
         "Price": "424.07 ",
         "Change": "-2.43 ",
-        "Volume": "83,085,545",
+        "Volume": "85,533,549",
         "URL": "https://finance.yahoo.com/quote/TSLA/",
         "Description": "Tesla, Inc. designs, develops, manufactures, leases, and sells electric vehicles, and energy generation and storage systems in the United States, China, and internationally. The company operates in two segments, Automotive, and Energy Generation and ",
-        "Last_Updated": "2025-01-21 23:03:52"
+        "Last_Updated": "2025-01-21 23:19:01"
     },
     {
         "Company": "Broadcom Inc.",
         "Symbol": "AVGO",
         "Price": "240.31 ",
         "Change": "+2.87 ",
-        "Volume": "26,713,606",
+        "Volume": "28,350,993",
         "URL": "https://finance.yahoo.com/quote/AVGO/",
         "Description": "Broadcom Inc. designs, develops, and supplies various semiconductor devices with a focus on complex digital and mixed signal complementary metal oxide semiconductor based devices and analog III-V based products worldwide. The company operates in two ",
-        "Last_Updated": "2025-01-21 23:03:55"
+        "Last_Updated": "2025-01-21 23:19:04"
     },
     {
         "Company": "Berkshire Hathaway Inc.",
         "Symbol": "BRK-B",
-        "Price": "468.46 ",
-        "Change": "+0.51 ",
-        "Volume": "2,725,801",
+        "Price": "468.57 ",
+        "Change": "+0.62 ",
+        "Volume": "3,952,260",
         "URL": "https://finance.yahoo.com/quote/BRK-B/",
         "Description": "Berkshire Hathaway Inc., through its subsidiaries, engages in the insurance, freight rail transportation, and utility businesses worldwide. The company provides property, casualty, life, accident, and health insurance and reinsurance; and operates ra",
-        "Last_Updated": "2025-01-21 23:03:58"
+        "Last_Updated": "2025-01-21 23:19:07"
     },
     {
         "Company": "Alphabet Inc.",
         "Symbol": "GOOG",
         "Price": "199.63 ",
         "Change": "+2.08 ",
-        "Volume": "15,325,920",
+        "Volume": "17,473,085",
         "URL": "https://finance.yahoo.com/quote/GOOG/",
         "Description": "Alphabet Inc. offers various products and platforms in the United States, Europe, the Middle East, Africa, the Asia-Pacific, Canada, and Latin America. It operates through Google Services, Google Cloud, and Other Bets segments. The Google Services se",
-        "Last_Updated": "2025-01-21 23:04:01"
+        "Last_Updated": "2025-01-21 23:19:10"
     }
 ]
