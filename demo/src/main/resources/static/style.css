@@ -1,0 +1,39 @@
+
+
+.hidden{
+    display: none;
+}
+
+.show {
+    display: block;
+    text-align: center;
+}
+
+.game-div{
+    display: flex;
+    gap: 20px;
+    background: royalblue;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+}
+
+.game{
+    font-family: "Courier New"; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400;
+}
+#descA, #descB{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#titleA, #titleB{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.inline{
+    flex: 1;
+    padding: 10px;
+}
+
+ul { list-style-type: none;}
