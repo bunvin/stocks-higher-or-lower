@@ -4,8 +4,9 @@
     display: none;
 }
 
-.show{
-    display: inline-block;
+.show {
+    display: block;
+    text-align: center;
 }
 
 .game-div{
@@ -35,8 +36,4 @@
     padding: 10px;
 }
 
-#metric-heading{
-    display: inline-block;
-}
-
-ul { list-style-type: none; }
+ul { list-style-type: none;}
