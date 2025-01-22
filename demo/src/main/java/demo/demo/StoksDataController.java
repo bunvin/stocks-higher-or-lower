@@ -1,4 +1,4 @@
-package stonks_game.demo;
+package demo.demo;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -18,7 +18,6 @@ public class StoksDataController {
         // load the file from classpath
         ClassPathResource resource = new ClassPathResource(filePath);
         if (resource.exists()) {
-            // Read file contents as a string
             return new String(Files.readAllBytes(Paths.get(resource.getURI())));
         } else {
             return "File not found!";
