@@ -1,16 +1,18 @@
 
 
+
 .hidden{
     display: none;
 }
 
 .show {
-    display: block;
+    display: flex;
     text-align: center;
 }
 
 .game-div{
     display: flex;
+    flex: 1;
     gap: 20px;
     background: royalblue;
     text-align: center;
@@ -37,3 +39,5 @@
 }
 
 ul { list-style-type: none;}
+
+
