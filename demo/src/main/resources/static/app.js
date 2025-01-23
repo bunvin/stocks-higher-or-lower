@@ -262,10 +262,13 @@ function checkAnswer(user_answer, dataA, dataB){
     
     let isCorrect; 
 
-    //fix prefix to turn into float
-    if(metricSelected == "Change"){ 
-        dataA.Change = parseFloat(dataA.Change.replace("+", ""));
+    if (metricSelected == "Change") {
         dataB.Change = parseFloat(dataB.Change.replace("+", ""));
+    
+        if (typeof dataA.Change === 'string') {
+            console.log("changing A")
+            dataA.Change = parseFloat(dataA.Change.replace("+", ""));
+        } 
     }
 
     if(user_answer == "A"){ 
