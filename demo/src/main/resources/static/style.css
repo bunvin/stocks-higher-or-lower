@@ -1,43 +1,125 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+ul{
+    list-style-type: none;
+}
 
-.hidden{
+li{
+    font-size: medium;
+}
+.bold{
+    font-weight: 500;
+    color: rgb(75, 2, 2);
+}
+
+button{
+    padding: 6px;
+    font-weight: 400;
+    align-items: center;
+}
+
+.hidden {
     display: none;
 }
 
 .show {
     display: flex;
+    flex-direction: column; /* Stack items vertically */
     text-align: center;
 }
 
-.game-div{
+.game-div {
     display: flex;
-    flex: 1;
+    justify-content: center; 
+    align-items: flex-start; 
     gap: 20px;
-    background: royalblue;
-    text-align: center;
-    color:white;
-    text-decoration: none;
+    width: 100%;
 }
 
-.game{
-    font-family: "Courier New"; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400;
+
+.company-container {
+    background-color: royalblue;
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 20px;
+    width: 100%;
 }
-#descA, #descB{
-    font-size: 14px;
-    font-weight: 400;
+.vs{
+    color: white;
 }
 
-#titleA, #titleB{
-    font-size: 20px;
-    font-weight: 600;
-}
-
-.inline{
-    flex: 1;
+#one, #two {
+    flex: 1; 
+    background-color: royalblue;
     padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
 }
 
-ul { list-style-type: none;}
 
+.score-board {
+    width: 100%;
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+}
+
+
+.score {
+    padding: 10px;
+    font-size: 20px;
+    font-family: "Courier New", monospace;
+    background-color: royalblue;  
+    width: 100%;
+    text-align: center;
+}
+
+.results {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+    justify-content: flex-start; 
+    padding: 5px;
+    width: 100%;
+    overflow-x: auto; 
+}
+
+
+.score-item {
+    padding: 10px;
+    background-color: royalblue; 
+    text-align: center;
+    color: white; 
+    border-radius: 5px;
+    width: 100px; 
+    margin: 5px; 
+}
+
+.green {
+    color: rgb(0, 255, 0); 
+}
+
+.red {
+    color: #ff0000; 
+}
+
+.form-check-input:checked {
+    background-color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+
+@media (max-width: 768px) {
+    h3.vs,
+    #descA,
+    #descB {
+     display: none;
+    }
+}
 

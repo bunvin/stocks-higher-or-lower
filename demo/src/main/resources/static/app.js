@@ -78,8 +78,8 @@ async function game_start(data, metric){
 
         const getScoreBoardTitle = document.getElementById("score-title");
         const getScoreBoardResult = document.getElementById("score"+(data_used.length-1));
-        getScoreBoardResult.innerHTML = data[randomIndexA].Symbol+" - "+data[randomIndexB].Symbol;
-        getScoreBoardResult.classList.remove("hidden");
+        getScoreBoardResult.innerHTML =data[randomIndexA].Symbol+" "+data[randomIndexA].Price+" - "+data[randomIndexB].Symbol+" "+data[randomIndexB][metricSelected];
+        getScoreBoardResult.classList.remove("hidden"); 
         
         if(answer_checked){
             score += 5;
@@ -152,8 +152,8 @@ function renderDivData(dataA, dataB) {
         const getDesc = document.getElementById(`desc${option}`);
 
         getTitle.innerHTML = `${data.Company} (${data.Symbol})`;
-        getPrice.innerHTML = `Price: ${data.Price}`;
-        getChange.innerHTML = `Change: ${data.Change}`;
+        getPrice.innerHTML = `Price: ${data.Price}$`;
+        getChange.innerHTML = `Change: ${data.Change}$`;
         getVolume.innerHTML = `Volume: ${data.Volume}`;
         getDesc.innerHTML = `${data.Description}`;
     };
@@ -187,8 +187,8 @@ function renderDivDataB(dataB) {
         const getDesc = document.getElementById(`desc${option}`);
 
         getTitle.innerHTML = `${data.Company} (${data.Symbol})`;
-        getPrice.innerHTML = `Price: ${data.Price}`;
-        getChange.innerHTML = `Change: ${data.Change}`;
+        getPrice.innerHTML = `Price: ${data.Price}$`;
+        getChange.innerHTML = `Change: ${data.Change}$`;
         getVolume.innerHTML = `Volume: ${data.Volume}`;
         getDesc.innerHTML = `${data.Description}`;
     };
@@ -295,8 +295,3 @@ function checkAnswer(user_answer, dataA, dataB){
     }
 
 }
-
-
-
-//change score board to dynamic
-//if true symbol-symbonl with color green, false red (runcount?)

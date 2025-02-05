@@ -34,9 +34,9 @@ for symbol in symbols:
         company_name = company_full_name[0].strip()
         company_symbol = company_full_name[1].replace(')', '').strip()
 
-        price = soup.find('span', {'data-testid': 'qsp-price'}).text
+        price = soup.find('span', {'data-testid': 'qsp-price'}).text.strip()
         
-        change = soup.find('span', {'data-testid': 'qsp-price-change'}).text  
+        change = soup.find('span', {'data-testid': 'qsp-price-change'}).text.strip()  
 
         fin_streamer = soup.find('fin-streamer', attrs={'data-symbol': {company_symbol}, 'data-field': 'regularMarketVolume'})
         volume = fin_streamer.text.strip()
@@ -70,13 +70,14 @@ for symbol in symbols:
         time.sleep(random.uniform(5, 10))  # Sleep longer if request fails
 
 # %%
-#panda it
-column_names = ["Company", "Symbol", "Price", "Change", "Volume", "URL", "Last_Updated" ,"Description" ]
-df = pd.DataFrame(all, columns=column_names)
+#into .JSON file
 filepath = 'C:\\Fullstack_apps\\stocks-higher-or-lower\\demo\\src\\main\\resources\\python-scripts'
 json_file_path = os.path.join(filepath,'stocks.json')
 
 with open(json_file_path, 'w', encoding='utf-8') as json_file:
     json.dump(all, json_file, ensure_ascii=False, indent=4)
+
+#for catching data in Spring
+print(json.dumps(all, indent=4))
 
 print("Data scraping completed and saved to 'stocks.json'.")

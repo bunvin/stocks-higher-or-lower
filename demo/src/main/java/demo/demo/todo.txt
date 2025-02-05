@@ -1,0 +1,8 @@
+fix: show data on score board
+    # actual db or json? for stock data and highest score
+    # add bard of higer lowest? a hint
+    # db highest score
+        totalScore: new score + oldScoresSum
+    # user entity
+    # login manager
+    # Error handling
